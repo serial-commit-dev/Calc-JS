@@ -12,7 +12,45 @@ button{
     height: 60px;
     border-radius: 15px;
     margin-top: 30px;
-    margin-left: auto;
+    margin-left: 40px;
+}
+
+#operation-btn{
+
+    border-radius: 30px;
+    width: 120px;
+    height: 60px;
+}
+
+#functional-buttons{
+    background-color: aqua;
+    border-radius: 15px;
+    width: 250px;
+    height: 350px;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+#Screen{
+    background-color: grey;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.sum-output{
+    width: 60px;
+    height: 60px;
+    background-color: aquamarine;
+
+}
+
+#num1-el{
+    margin-left: 100px;
+    margin-bottom: 7px;
+}
+
+#num2-el{
+    margin-left: 5px;
 }
 
 p{
@@ -20,4 +58,8 @@ p{
     font-weight: bold;
     font-size: large;
     text-align: center;
+}
+
+#sum-el{
+    margin-left: 50px;
 }
