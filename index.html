@@ -5,16 +5,24 @@
       <title>Calculator</title>
   </head>
      <body>
-        <span id="num1-el"></span>
-        <span id="num2-el"></span>
         <br>
 
-        <button onclick="add()">Add</button>
-        <button onclick="subtract()">Subtract</button>
-        <button onclick="divide()">Divide</button>
-        <button onclick="multiply()">Multiply</button>
+          <section id="functional-buttons">
+              
+              <section id="Screen">
+                  <span id="num1-el"></span>
+                  <span id="num2-el"></span>
+              </section>
+              
+            <button onclick="add()">Add</button>
+            <button onclick="subtract()">Subtract</button>
+            <button onclick="divide()">Divide</button>
+            <button onclick="multiply()">Multiply</button>
+              <br>
+              <br>
+            <span class="sum-output" id="sum-el">Sum: </span>
+          </section>
 
-        <span id="sum-el">Sum: </span>
         <script src="index.js"></script>
      </body>
 
