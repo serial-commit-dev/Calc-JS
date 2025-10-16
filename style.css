@@ -76,15 +76,17 @@ body{
     box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
 }
 
-#functional-buttons{
+#Calculator{
     background-color:  #B22222;
     border-radius: 15px;
     width: 250px;
     height: 400px;
-    margin-right: 350px;
+    margin-right: 500px;
+    margin-left: 108px;
     margin-top: 45px;
-    margin-bottom: 28px;
+    margin-bottom: 59px;
     box-shadow:  4px 3px 6px rgba(0,0,0,0.3);
+
 }
 
 #white-box{
@@ -92,10 +94,12 @@ body{
     box-shadow: 4px 3px 6px rgba(0,0,0,0.3);
     border-radius: 20px;
     border: none;
-    width: 500px;
-    height: 450px;
-    margin-left: 400px;
+    width: 450px;
+    height: 500px;
+    margin-left: 440px;
     margin-right: 5px;
+    margin-top: 40px;
+    padding: 5px;
 }
 
 #Screen{
@@ -116,6 +120,8 @@ body{
 
 }
 
+
+
 #num1-el{
     margin-left: 100px;
     margin-top: 80px;
@@ -131,4 +137,5 @@ p{
     font-size: large;
 
 }
+
 
