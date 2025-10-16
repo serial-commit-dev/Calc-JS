@@ -7,20 +7,24 @@
      <body>
         <br>
 
-          <section id="functional-buttons">
-              
+      
+        <section id="functional-buttons">
+
               <section id="Screen">
                   <span id="num1-el"></span>
                   <span id="num2-el"></span>
+                  <span class="sum-output" id="sum-el">Sum: </span>
               </section>
-              
-            <button onclick="add()">Add</button>
-            <button onclick="subtract()">Subtract</button>
-            <button onclick="divide()">Divide</button>
-            <button onclick="multiply()">Multiply</button>
+
+            <button id="add" onclick="add()">+</button>
+            <button id="subtract" onclick="subtract()">-</button>
+            <button id="divide" onclick="divide()">/</button>
+            <button id="multiply" onclick="multiply()">*</button>
+
+
               <br>
               <br>
-            <span class="sum-output" id="sum-el">Sum: </span>
+
           </section>
 
         <script src="index.js"></script>
