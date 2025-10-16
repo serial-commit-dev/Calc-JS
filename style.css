@@ -1,5 +1,9 @@
 body{
-    background-color:mediumorchid;
+    background-color:mediumpurple;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/bg-theme-2.jpg");
+    background-size: cover;
 }
 
 #sum-el{
@@ -7,46 +11,99 @@ body{
     margin-top: 40px;
 }
 
-button{
+
+
+#add{
+    background-color: orchid;
     width: 60px;
     height: 60px;
     border-radius: 15px;
     margin-top: 30px;
     margin-left: 40px;
+    border: none;
 }
 
-#operation-btn{
-
-    border-radius: 30px;
-    width: 120px;
+#subtract{
+    background-color: orchid;
+    width: 60px;
     height: 60px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: none;
+
+}
+
+#divide{
+    background-color: orchid;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: none;
+}
+
+
+#multiply{
+    background-color: orchid;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: none;
+}
+
+#multiply:hover{
+    background-color: mediumorchid;
+    box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
+}
+
+#divide:hover{
+    background-color: mediumorchid;
+    box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
+}
+
+#subtract:hover{
+    background-color: mediumorchid;
+    box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
+}
+
+#add:hover{
+    background-color: mediumorchid;
+    box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
 }
 
 #functional-buttons{
-    background-color: aqua;
+    background-color:  #B22222;
     border-radius: 15px;
     width: 250px;
-    height: 350px;
-    margin-left: 500px;
-    margin-top: 150px;
+    height: 400px;
+    margin-left: 550px;
+    margin-top: 50px;
+    box-shadow:  4px 3px 6px rgba(0,0,0,0.3);
 }
 
+
+
 #Screen{
-    background-color: grey;
+    background-color: #6A5ACD;
     height: 100px;
     border-radius: 15px;
+    box-shadow:  1px 3px 6px rgba(0,0,0,0.3);
 }
 
 .sum-output{
     width: 60px;
     height: 60px;
-    background-color: aquamarine;
+   margin-bottom: 100px;
 
 }
 
 #num1-el{
     margin-left: 100px;
-    margin-bottom: 7px;
+    margin-top: 80px;
 }
 
 #num2-el{
@@ -57,9 +114,6 @@ p{
     color: black;
     font-weight: bold;
     font-size: large;
-    text-align: center;
+
 }
 
-#sum-el{
-    margin-left: 50px;
-}
