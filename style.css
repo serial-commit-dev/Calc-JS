@@ -4,6 +4,7 @@ body{
     padding: 0;
     background-image: url("img/bg-theme-2.jpg");
     background-size: cover;
+    justify-content: center;
 }
 
 #sum-el{
@@ -80,8 +81,9 @@ body{
     border-radius: 15px;
     width: 250px;
     height: 400px;
-    margin-left: 550px;
-    margin-top: 50px;
+    margin-right: 350px;
+    margin-top: 45px;
+    margin-bottom: 28px;
     box-shadow:  4px 3px 6px rgba(0,0,0,0.3);
 }
 
@@ -92,15 +94,19 @@ body{
     border: none;
     width: 500px;
     height: 450px;
-    margin-left: 150px;
-    margin-right: 20px;
+    margin-left: 400px;
+    margin-right: 5px;
 }
 
 #Screen{
     background-color: #6A5ACD;
     height: 100px;
+    width: 230px;
+    margin-left: 10px;
     border-radius: 15px;
     box-shadow:  1px 3px 6px rgba(0,0,0,0.3);
+    align-content: center;
+
 }
 
 .sum-output{
