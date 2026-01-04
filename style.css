@@ -2,7 +2,7 @@ body{
     background-color:mediumpurple;
     margin: 0;
     padding: 0;
-    background-image: url("img/bg-theme-2.jpg");
+    background-image: url("../img/bg-theme-2.jpg");
     background-size: cover;
     justify-content: center;
 }
@@ -16,8 +16,8 @@ body{
 
 #add{
     background-color: orchid;
-    width: 60px;
-    height: 60px;
+    width: 35px;
+    height: 35px;
     border-radius: 15px;
     margin-top: 30px;
     margin-left: 40px;
@@ -26,10 +26,10 @@ body{
 
 #subtract{
     background-color: orchid;
-    width: 60px;
-    height: 60px;
+    width: 35px;
+    height: 35px;
     border-radius: 15px;
-    margin-top: 30px;
+    margin-top: 12px;
     margin-left: 40px;
     border: none;
 
@@ -37,10 +37,10 @@ body{
 
 #divide{
     background-color: orchid;
-    width: 60px;
-    height: 60px;
+    width: 35px;
+    height: 35px;
     border-radius: 15px;
-    margin-top: 30px;
+    margin-top: 12px;
     margin-left: 40px;
     border: none;
 }
@@ -48,10 +48,10 @@ body{
 
 #multiply{
     background-color: orchid;
-    width: 60px;
-    height: 60px;
+    width: 35px;
+    height: 35px;
     border-radius: 15px;
-    margin-top: 30px;
+    margin-top: 12px;
     margin-left: 40px;
     border: none;
 }
@@ -76,15 +76,17 @@ body{
     box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
 }
 
+.input-btn{
+    margin-left:150px;
+    margin-top: 30px;
+}
+
 #Calculator{
     background-color:  #B22222;
     border-radius: 15px;
     width: 250px;
     height: 400px;
-    margin-right: 490px;
-    margin-left: 58px;
-    margin-top: 30px;
-    margin-bottom: 45px;
+    margin: auto;
     box-shadow:  4px 3px 6px rgba(0,0,0,0.3);
 
 }
@@ -94,13 +96,15 @@ body{
     box-shadow: 4px 3px 6px rgba(0,0,0,0.3);
     border-radius: 20px;
     border: none;
-    width: 350px;
-    height: 450px;
+    width: 318px;
+    height: auto;
     margin-left: 500px;
     margin-right: 5px;
     margin-top: 40px;
-    padding: 5px;
+    padding: 20px 20px;
 }
+
+
 
 #Screen{
     background-color: #6A5ACD;
@@ -122,14 +126,7 @@ body{
 
 
 
-#num1-el{
-    margin-left: 100px;
-    margin-top: 80px;
-}
 
-#num2-el{
-    margin-left: 5px;
-}
 
 p{
     color: black;
